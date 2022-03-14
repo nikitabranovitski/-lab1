@@ -12,6 +12,7 @@ body {
 
 h1,h2,h3,h4,h5,h6,h7,h8, h9{
     margin: 0;
+    font-family: "Fedoka";
 }
 
 .intro {
@@ -346,7 +347,7 @@ h1,h2,h3,h4,h5,h6,h7,h8, h9{
 }
 
 .email_input{
-     border-radius: 5px;
+    border-radius: 5px;
     background-color: #fff;
     width: 521px;
     height: 79px;
@@ -359,9 +360,6 @@ h1,h2,h3,h4,h5,h6,h7,h8, h9{
     margin-right: 22px;
 }
 
-.email_input:invalid{
-     box-shadow: 0 0 5px 1px red;
-}
 
 .email_button{
     height: 79px;
@@ -497,4 +495,16 @@ h1,h2,h3,h4,h5,h6,h7,h8, h9{
     color: rgb(184, 184, 184);
     line-height: 1.625;
 }
+
+.social:hover{
+    background: #fff;
+}
+
+@font-face {
+font-family: "Fedoka"; 
+src: url("../Fedoka") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+
 

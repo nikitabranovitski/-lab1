@@ -27,7 +27,11 @@
             <button class="btn">Contact us</button>
         </div>
         
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/s056O5YfT6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <div class="header-video">
+           <video  width="600" height="400" class="header-video__video" poster="assets/img/godzillA.webp" controls>
+               <source src="video.mp4" type="video/mp4">
+           </video>
+        </div>
     </div>
     
     <section class="main">
@@ -178,12 +182,12 @@
     <div class="content">
         <h6 class="desing_title">Design tips, tricks, and freebies. Delivered weekly</h6>
         <h7 class="design_subtitle">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</h7>
-            <div class="email">
+            <form class="email">
                 <label>
-                    <input type="text" class="email_input" placeholder="Email Address...">
+                    <input type="text" class="email_input" placeholder="Email Address..." required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
                 </label>
                 <button class="email_button">subscribe</button>
-            </div>
+            </form>
         </div>
 </section>
     
@@ -198,16 +202,16 @@
         <img src="Rectangle%204%20copy.png">
     </div>
     <div class="touch_data">
-                <div class="touch_data_info">
+                <form class="touch_data_info">
                     <div class="info">
-                    <div class="touch_name_mail">
+                    <form class="touch_name_mail">
                         <label>
-                            <input type="text" placeholder="Name" class="touch_input">
+                            <input type="text" required placeholder="Name" class="touch_input">
                         </label>
                         <label>
-                            <input type="email" placeholder="Your Mail" class="touch_input">
+                            <input type="email" placeholder="Your Mail" class="touch_input" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
                         </label>
-                    </div>
+                    </form>
                     <div class="touch_message">
                         <label>
                             <textarea name="text" id="1" cols="30" rows="10" placeholder="Type your message" class="touch_message_input"></textarea>
@@ -228,7 +232,7 @@
                         </div>
                     </div>
                     
-                </div>
+                </form>
     </div>
     
 </section>
@@ -237,10 +241,18 @@
     <div class="content_footer">
          <p class="footer_text">© Copyright @Junaed 2016, All rights reserved.</p>
          <div class="footer_social">
+             <a class="social" href="#">
                         <img src="Twitter_Rounded_Solid.png" >
+                  </a>
+             <a class="social" href="#">
                         <img src="LinkedIn_Rounded_Solid.png" >
+                 </a>
+                 <a class="social" href="#">
                         <img src="Google_Rounded_Solid.png">
+                     </a>
+                     <a class="social" href="#">
                         <img src="Facebook_Rounded_Solid.png">
+                 </a>
                 </div>
     </div>
         
